@@ -1,0 +1,81 @@
+{
+  "home": "Home",
+  "services": "Services",
+  "software": "Software",
+  "switchToEnglish": "English",
+  "switchToArabic": "Arabic",
+  "welcome": "Welcome to the App!",
+    "login": "Login",
+  "aboutUs": "About Us",
+  "contactUs": "Contact Us",
+  "pricing": "Pricing",
+  "newsletter": "Newsletter",
+  "servicesDescription": "Our services include web development and more.",
+  "softwareDescription": "Explore our software solutions.",
+  "IntroductionText": "StellarSep -- Your Permanent AI-Powered Digital Booth\nExperience the future of showcasing, selling, and discovering technology in Stellar Sales Engineering Platform.\nA smart, always-on ecosystem where startups, buyers, investors, and software vendors connect -- through intelligent demos, real-time insights, and AI-driven matchmaking.\nIt's more than a booth -- it's your digital sales engine, powered by artificial intelligence.",
+  "vendorText": "Build your digital booth Here!",
+  "buyerText": "Find the most proper product or service at a glance!",
+  "startupText": "Show up your product or service in Startups Hall!",
+  "investorText": "Find the Best chance of Investment Here!",
+  "letsGo": "Let's Go",
+  "vendorTitle": "Vendor Dashboard",
+  "vendorDescription": "Build and manage your digital booth here.",
+  "buyerTitle": "Buyer Portal",
+  "buyerDescription": "Find products and services easily.",
+  "startupTitle": "Startup Hall",
+  "startupDescription": "Showcase your product or service in the Startups Hall and connect with investors.",
+  "investorTitle": "Investor Opportunities",
+  "investorDescription": "Discover the best investment chances and connect with promising startups.",
+    "leadFormButton": "Lead Form",
+  "leadFormTitle": "Enter Your Email",
+  "emailLabel": "Email",
+  "submitButton": "Submit",
+  "successMessage": "Email submitted successfully!",
+  "errorMessage": "Error submitting email. Please try again.",
+    "searchPlaceholder": "Search by name or keyword...",
+  "searchButton": "Search",
+  "softwareFilter": "Software",
+  "startupFilter": "Startup",
+  "noResults": "No results found.",
+  "servicesItem": {
+    "title": "Our Services",
+    "dataAnalysis": {
+      "title": "Data Analysis & Report",
+      "description": "Comprehensive data analysis and detailed reporting solutions"
+    },
+    "leadGeneration": {
+      "title": "Lead Generation",
+      "description": "Generate quality leads and expand your business reach"
+    },
+    "technicalDemo": {
+      "title": "Technical Demo",
+      "description": "Interactive technical demonstrations and presentations"
+    },
+    "aiMatching": {
+      "title": "AI Matching Engine",
+      "description": "Smart AI-powered matching for optimal business connections"
+    }
+  },
+   "statistics": {
+    "title": "Our Achievements",
+    "subtitle": "Trusted by thousands of businesses worldwide",
+    "activeUsers": "Active Users",
+    "successfulProjects": "Successful Projects",
+    "satisfactionRate": "Satisfaction Rate",
+    "globalPartners": "Global Partners"
+  },
+  "footer": {
+    "companyDescription": "Your Permanent AI-Powered Digital Booth. Experience the future of showcasing, selling, and discovering technology in Stellar Sales Engineering Platform.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contactInfo": "Contact Info",
+    "address": "123 Innovation Street, Tech Valley, Dubai, UAE",
+    "newsletterTitle": "Stay Updated",
+    "newsletterDescription": "Subscribe to our newsletter and get the latest updates on tech innovations and investment opportunities.",
+    "emailPlaceholder": "Enter your email address",
+    "subscribe": "Subscribe",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© {{year}} StellarSEP. All rights reserved."
+  }
+}

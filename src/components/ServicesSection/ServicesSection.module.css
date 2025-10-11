@@ -1,0 +1,310 @@
+.servicesSection {
+  width: 100%;
+  padding: 60px 0;
+  background: linear-gradient(135deg, #e8f4f8 0%, #d1e7f0 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.servicesSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  animation: moveGrid 20s linear infinite;
+}
+
+@keyframes moveGrid {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e3a5f;
+  margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+[dir="rtl"] .sectionTitle {
+  font-family: 'Cairo', 'Noto Kufi Arabic', sans-serif;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #2c5282, #4a90e2);
+  border-radius: 2px;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.serviceCard {
+  position: relative;
+  padding: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 10px 30px rgba(30, 58, 95, 0.15);
+  overflow: hidden;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  animation: slideUp 0.6s ease-out forwards;
+  opacity: 0;
+  transform: translateY(30px);
+  
+  /* آبی کاربنی گرادیانت */
+  background: linear-gradient(135deg, #1e3a5f 0%, #2c5282 50%, #3a6ea5 100%);
+}
+
+/* رنگ‌های مختلف برای هر کارت - همه آبی کاربنی با تنوع */
+.serviceCard:nth-child(1) {
+  background: linear-gradient(135deg, #1a2f4e 0%, #2c5282 100%);
+}
+
+.serviceCard:nth-child(2) {
+  background: linear-gradient(135deg, #234567 0%, #3a6ea5 100%);
+}
+
+.serviceCard:nth-child(3) {
+  background: linear-gradient(135deg, #1e3a5f 0%, #4a7ba7 100%);
+}
+
+.serviceCard:nth-child(4) {
+  background: linear-gradient(135deg, #2c5282 0%, #5b8ab9 100%);
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.serviceCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.serviceCard:hover::before {
+  transform: translateY(0);
+}
+
+.serviceCard:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(30, 58, 95, 0.3);
+  background: linear-gradient(135deg, #2c5282 0%, #4a90e2 100%);
+}
+
+.iconWrapper {
+  width: 70px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.serviceCard:hover .iconWrapper {
+  transform: rotate(360deg) scale(1.1);
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.iconText {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+}
+
+.serviceTitle {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  line-height: 1.3;
+}
+
+[dir="rtl"] .serviceTitle {
+  font-family: 'Cairo', 'Noto Kufi Arabic', sans-serif;
+  font-size: 1.3rem;
+}
+
+.serviceDescription {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  flex-grow: 1;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+[dir="rtl"] .serviceDescription {
+  font-family: 'Cairo', 'Noto Kufi Arabic', sans-serif;
+  line-height: 1.8;
+}
+
+.arrowIcon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+[dir="rtl"] .arrowIcon {
+  right: auto;
+  left: 20px;
+}
+
+.serviceCard:hover .arrowIcon {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateX(5px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+[dir="rtl"] .serviceCard:hover .arrowIcon {
+  transform: translateX(-5px);
+}
+
+.arrowIcon span {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .servicesSection {
+    padding: 40px 0;
+  }
+  
+  .servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .serviceCard {
+    padding: 25px;
+    min-height: 220px;
+  }
+  
+  .iconWrapper {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .iconText {
+    font-size: 1.5rem;
+  }
+  
+  .serviceTitle {
+    font-size: 1.2rem;
+  }
+  
+  [dir="rtl"] .serviceTitle {
+    font-size: 1.1rem;
+  }
+  
+  .serviceDescription {
+    font-size: 0.9rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.8rem;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .servicesGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .serviceCard {
+    padding: 30px;
+    min-height: auto;
+  }
+  
+  .sectionTitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+}
+
+/* Animation for hover effect on mobile */
+@media (hover: none) {
+  .serviceCard:active {
+    transform: scale(0.98);
+  }
+}

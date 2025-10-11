@@ -1,0 +1,89 @@
+/* src/App.css */
+:root {
+  --primary: #5b099b; /* بنفش اصلی */
+  --secondary: #5d0085; /* بنفش تیره‌تر */
+  --accent: #9bf509; /* مثال complementary – این با getComplementary محاسبه می‌شه */
+  --background: #fbf9f9; /* سفید روشن */
+  --text: #333; /* متن تیره */
+  --text-light: #fff; /* متن روشن */
+}
+
+html, body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: var(--background); /* background پیش‌فرض */
+  color: var(--text);
+  font-family: 'Open Sans', sans-serif; /* Open Sans برای متن اصلی (body, p, etc.) */
+
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Albert Sans', sans-serif; /* Albert Sans برای headings – مدرن و برجسته */
+  font-weight: 700; /* bold پیش‌فرض برای عناوین */
+}
+.navbar, .nav {
+  font-family: 'Albert Sans', sans-serif; /* Albert Sans برای متن Navbar (مثل لینک‌ها) */
+  /* بقیه استایل‌ها مثل box-shadow حفظ می‌شن */
+}
+
+/* فونت برای متن صفحات (مثل Home) – اگر نیاز به override باشه */
+.text {
+  font-family: 'Open Sans', sans-serif; /* مطمئن شدن از اعمال Open Sans در کلاس‌های خاص */
+  /* بقیه استایل‌ها مثل font-size حفظ می‌شن */
+}
+[dir="rtl"] body {
+  font-family: 'Open Sans', sans-serif; /* همان فونت، چون ساپورت می‌کنه */
+  /* اگر فونت عربی خاص بخواید: font-family: 'Noto Sans Arabic', 'Open Sans', sans-serif; */
+}
+
+.App {
+ 
+  overflow-y: scroll;
+  width: 100vw;
+  background-color: var(--background);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.color-changer {
+  padding: 10px;
+  text-align: center;
+  background-color: var(--primary); /* background با بنفش اصلی */
+  color: var(--text-light); /* متن سفید برای contrast */
+}
+
+/* بقیه استایل‌ها (رسپانسیو و RTL) مثل قبل باقی می‌مونه */
+
+/* مثال: بهبود contrast برای عناصر */
+.page-container {
+  background-color: var(--background);
+  color: var(--text);
+  /* padding: 20px; */
+  border: 1px solid var(--secondary); /* استفاده از secondary برای border */
+  border-radius: 8px;
+  /* max-width: 800px; */
+  /* margin: 20px auto; */
+  text-align: center;
+}
+.navbar {
+  /* استایل Navbar – اگر کلاسش styles.navbar در Navbar.module.css باشه، اینجا override نکن، اما برای sticky اضافه کن */
+  position: sticky; /* Navbar رو sticky کن تا همیشه در بالا بمونه، حتی اگر اسکرول کنی */
+  top: 0;
+  z-index: 1000; /* بالاتر از محتوای دیگه */
+  background-color: var(--primary); /* رنگ پس‌زمینه Navbar برای جلوگیری از شفافیت */
+  /* اگر Navbar.module.css داره padding یا height، اینجا تنظیم نکن */
+}
+/* رسپانسیو مثل قبل */
+@media (max-width: 768px) {
+  /* ... */
+}
