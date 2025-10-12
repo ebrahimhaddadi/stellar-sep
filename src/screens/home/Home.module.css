@@ -129,7 +129,7 @@
 .leadFormButton {
   margin: 30px auto;
   padding: 14px 32px;
-  background-color: var(--primary);
+  background-color: var(--text-light);
   color: #fff;
   border: none;
   border-radius: 30px;
@@ -139,10 +139,12 @@
   transition: all 0.3s ease;
   display: block;
   box-shadow: 0 4px 12px rgba(91, 9, 155, 0.3);
+  color: #333;
+  font-weight: bold;
 }
 
 .leadFormButton:hover {
-  background-color: var(--secondary);
+  background-color: var(--accent);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(91, 9, 155, 0.4);
 }

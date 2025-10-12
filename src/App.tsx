@@ -4,6 +4,7 @@ import { darken, lighten, getComplementary } from "./utils/colorUtils"; // فر�
 import Navbar from "./components/Navbar";
 import AppRoutes from "./routers/AppRouter";
 import "./App.css"; // استایل‌های جهانی
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [primaryColor, setPrimaryColor] = useState("#5b099b"); // پیش‌فرض جدید: بنفش اصلی
@@ -26,6 +27,7 @@ function App() {
       <main className="main-content">
         <AppRoutes />
       </main>
+      <Footer />
     </div>
   );
 }

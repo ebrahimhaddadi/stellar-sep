@@ -230,8 +230,7 @@ const Home: React.FC = () => {
       </div>
       <ServicesSection />
       <StatisticsSection />
-      <VisionMission/>
-      <Footer />
+      <VisionMission />
     </div>
   );
 };

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <!-- Multi-layer Gradient -->
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A855F7" />
+      <stop offset="25%" style="stop-color:#9333EA" />
+      <stop offset="50%" style="stop-color:#7B3FF2" />
+      <stop offset="75%" style="stop-color:#6B21A8" />
+      <stop offset="100%" style="stop-color:#5B099B" />
+    </linearGradient>
+    
+    <!-- Metallic Gold Effect -->
+    <linearGradient id="goldMetallic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFED4E" />
+      <stop offset="25%" style="stop-color:#FFD700" />
+      <stop offset="50%" style="stop-color:#FFFFFF" />
+      <stop offset="75%" style="stop-color:#FFD700" />
+      <stop offset="100%" style="stop-color:#FFA500" />
+    </linearGradient>
+    
+    <!-- 3D Effect -->
+    <filter id="effect3D">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.4"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Outer Circle -->
+  <circle cx="32" cy="32" r="31" fill="#3D0669" opacity="0.3"/>
+  
+  <!-- Main Circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#purpleGrad)"/>
+  
+  <!-- Inner Glow -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="url(#goldMetallic)" stroke-width="0.5" opacity="0.4"/>
+  
+  <!-- Letter S - Custom Path -->
+  <g transform="translate(32, 32)">
+    <path d="M -8,-12
+             C -8,-18 -2,-20 4,-20
+             C 10,-20 12,-16 12,-12
+             C 12,-8 10,-6 4,-4
+             L -4,0
+             C -10,2 -12,4 -12,8
+             C -12,12 -10,16 -4,16
+             C 2,16 8,16 10,10"
+          fill="none"
+          stroke="url(#goldMetallic)"
+          stroke-width="6"
+          stroke-linecap="round"
+          filter="url(#effect3D)"/>
+  </g>
+  
+  <!-- Shine Effect -->
+  <ellipse cx="26" cy="24" rx="8" ry="4" fill="#FFFFFF" opacity="0.2" transform="rotate(-30 26 24)"/>
+</svg>
