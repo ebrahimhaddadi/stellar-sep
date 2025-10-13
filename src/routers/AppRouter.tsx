@@ -12,6 +12,7 @@ import Startup from "../screens/startup/Startup";
 import Investor from "../screens/investor/Investor";
 import Vendor from "../screens/vendor/Vendor";
 import Buyer from "../screens/buyer/Buyer";
+import BrowsePage from "../screens/browse/Browse";
 
 const AppRoutes: React.FC = () => {
   return (
@@ -33,6 +34,7 @@ const AppRoutes: React.FC = () => {
       <Route path="/:lang/investor" element={<Investor />} />
       <Route path="/:lang/vendor" element={<Vendor />} />
       <Route path="/:lang/buyer" element={<Buyer />} />
+      <Route path="/:lang/browse" element={<BrowsePage />} />
       {/* اگر مسیر نامعتبر بود، به home ریدایرکت کن */}
       <Route path="*" element={<Navigate to="/en/home" replace />} />
     </Routes>

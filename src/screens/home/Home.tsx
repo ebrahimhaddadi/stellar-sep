@@ -14,6 +14,7 @@ import ServicesSection from "../../components/ServicesSection/ServicesSection";
 import StatisticsSection from "../../components/StatisticsSection/StatisticsSection";
 import Footer from "../../components/footer/Footer";
 import VisionMission from "../../components/visionMission/VisionMission";
+import SearchComponent from "../../components/SearchComponent/SearchComponent";
 
 const Home: React.FC = () => {
   const { t } = useTranslation();
@@ -111,13 +112,6 @@ const Home: React.FC = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.contentWrapper}>
-        <div className={styles.textContent}>
-          <p className={styles.text}>{t("IntroductionText")}</p>
-        </div>
-        <img src={Logo} alt="StellarSep Logo" className={styles.logo} />
-      </div>
-
       {/* کانتینر اسلایدر تمام‌عرض بدون border-radius */}
       <div className={styles.sliderContainer}>
         {slides.map((slide, index) => (
@@ -142,13 +136,22 @@ const Home: React.FC = () => {
           </div>
         ))}
       </div>
+      <div className={styles.contentWrapper}>
+        <div className={styles.textContent}>
+          <p className={styles.text}>{t("IntroductionText")}</p>
+        </div>
+        {/* <img src={Logo} alt="StellarSep Logo" className={styles.logo} /> */}
+        <div>
+          <p>{t("AIPower")}</p>
+        </div>
+      </div>
       {/* باتن Lead Form */}
-      <button
+      {/* <button
         className={styles.leadFormButton}
         onClick={() => setIsModalOpen(true)}
       >
         {t("leadFormButton")}
-      </button>
+      </button> */}
 
       {/* پیام‌های موفقیت/خطا (خارج از مودال برای سادگی) */}
       {successMessage && <p className={styles.success}>{successMessage}</p>}
@@ -184,40 +187,10 @@ const Home: React.FC = () => {
       )}
 
       {/* سرچ بار جدید */}
-      <div className={styles.searchBar}>
-        <button
-          className={`${styles.filterButton} ${
-            activeFilter === "Software" ? styles.activeFilter : ""
-          }`}
-          onClick={() => handleFilterClick("Software")}
-        >
-          {t("softwareFilter")}
-        </button>
-        <button
-          className={`${styles.filterButton} ${
-            activeFilter === "Startup" ? styles.activeFilter : ""
-          }`}
-          onClick={() => handleFilterClick("Startup")}
-        >
-          {t("startupFilter")}
-        </button>
-        <form onSubmit={handleSearch} className={styles.searchForm}>
-          <input
-            type="text"
-            placeholder={t("searchPlaceholder")}
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className={styles.searchInput}
-          />
-          <button type="submit" className={styles.searchButton}>
-            {t("searchButton")} <span className={styles.searchIcon}>🔍</span>{" "}
-            {/* آیکون ساده - می‌تونید با SVG جایگزین کنید */}
-          </button>
-        </form>
-      </div>
+      <SearchComponent />
 
       {/* لیست نمونه برای نمایش نتایج فیلتر (اختیاری - جایگزین کنید) */}
-      <div className={styles.resultsList}>
+      {/* <div className={styles.resultsList}>
         {filteredItems.length > 0 ? (
           filteredItems.map((item) => (
             <div key={item.id} className={styles.resultItem}>
@@ -227,7 +200,7 @@ const Home: React.FC = () => {
         ) : (
           <p>{t("noResults")}</p>
         )}
-      </div>
+      </div> */}
       <ServicesSection />
       <StatisticsSection />
       <VisionMission />

@@ -16,21 +16,23 @@ const ServicesSection: React.FC = () => {
 
   const services: ServiceCard[] = [
     {
-      id: "dataAnalysis",
-      icon: "📊", // یا میتونید از آیکون‌های دیگه استفاده کنید
+      id: "aiMatching",
+      icon: "🤖",
     },
-    {
+     {
       id: "leadGeneration",
       icon: "👥",
     },
     {
+      id: "dataAnalysis",
+      icon: "📊", // یا میتونید از آیکون‌های دیگه استفاده کنید
+    },
+   
+    {
       id: "technicalDemo",
       icon: "🖥️",
     },
-    {
-      id: "aiMatching",
-      icon: "🤖",
-    },
+    
   ];
 
   const handleServiceClick = (serviceId: string) => {
@@ -48,7 +50,7 @@ const ServicesSection: React.FC = () => {
             <div
               key={service.id}
               className={styles.serviceCard}
-              onClick={() => handleServiceClick(service.id)}
+              onClick={() => {}}
               style={{
                 animationDelay: `${index * 0.1}s`,
               }}
@@ -62,9 +64,9 @@ const ServicesSection: React.FC = () => {
               <p className={styles.serviceDescription}>
                 {t(`servicesItem.${service.id}.description`)}
               </p>
-              <div className={styles.arrowIcon}>
+              {/* <div className={styles.arrowIcon}>
                 <span>{currentLang === "ar" ? "←" : "→"}</span>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

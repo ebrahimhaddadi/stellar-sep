@@ -133,7 +133,7 @@ const ContactUs: React.FC = () => {
                 </div>
                 <div className={styles.infoText}>
                   <h3>{t('contactPage.phone')}</h3>
-                  <a href="tel:+971501234567" className={styles.link}>
+                  <a href="tel:+971502648618" className={styles.link}>
                     {t('contactPage.phoneValue')}
                   </a>
                 </div>

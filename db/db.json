@@ -7,6 +7,330 @@
     {
       "id": "12ff",
       "email": "kxvkxmvk.ee@gmail.com"
+    },
+    {
+      "id": "db61",
+      "email": "hgsfhsfhsd.d@gmail.com",
+      "timestamp": "2025-10-13T21:06:18.617Z",
+      "interested_in": "software"
+    },
+    {
+      "id": "d679",
+      "email": "hadadi.e@gmail.com",
+      "timestamp": "2025-10-13T21:06:49.176Z",
+      "interested_in": "general"
+    },
+    {
+      "id": "6aed",
+      "email": "jkhdjkahd.sjfjskfd@gmail.com",
+      "timestamp": "2025-10-13T21:07:52.473Z",
+      "interested_in": "general"
+    },
+    {
+      "id": "c8d4",
+      "email": "ccsdcsdcsd.e@gmail.com",
+      "timestamp": "2025-10-13T21:08:16.992Z",
+      "interested_in": "general"
+    },
+    {
+      "id": "1671",
+      "email": "Efvfsvfd.E@yahoo.com",
+      "type": "software",
+      "searchTerm": "adnndjsajs.eb@gmail.com",
+      "timestamp": "2025-10-13T21:20:19.730Z",
+      "language": "en"
+    },
+    {
+      "id": "9ce8",
+      "email": "asa.s@g.com",
+      "searchTerm": "",
+      "filterType": "software",
+      "timestamp": "2025-10-13T21:26:55.382Z"
+    },
+    {
+      "id": "1a97",
+      "email": "fas.e@gmail.com",
+      "searchTerm": "",
+      "filterType": "software",
+      "timestamp": "2025-10-13T21:55:36.062Z"
+    },
+    {
+      "id": "608e",
+      "email": "sdsds.E@h.com",
+      "searchTerm": "",
+      "filterType": "startup",
+      "timestamp": "2025-10-13T22:01:04.265Z"
+    },
+    {
+      "id": "0e3b",
+      "email": "jdndsjd.e@gmail.com",
+      "searchTerm": "",
+      "filterType": "software",
+      "timestamp": "2025-10-13T22:43:18.566Z"
+    }
+  ],
+  "software": [
+    {
+      "id": "soft-001",
+      "name": "Analytics Pro Singapore",
+      "category": "Analytics",
+      "headquarter": "Singapore",
+      "email": "info2@analytics.io",
+      "valueProposition": "Analytics solution designed to boost efficiency and streamline business operations.",
+      "problem": "Businesses struggle with managing analytics processes efficiently.",
+      "solution": "Our AI-powered analytics platform simplifies workflows and enhances productivity.",
+      "audience": "Startups",
+      "context": "Built for the modern digital ecosystem with integrations and scalability in mind.",
+      "mainFeatures": [
+        "Smart automation",
+        "Analytics dashboard",
+        "Multi-user support",
+        "Secure data layer"
+      ],
+      "logo": "/images/software/analytics-singapore.png",
+      "rating": 4.5,
+      "price": "$299/month"
+    },
+    {
+      "id": "soft-002",
+      "name": "Analytics UK Enterprise",
+      "category": "Analytics",
+      "headquarter": "UK",
+      "email": "info3@analytics.io",
+      "valueProposition": "Analytics solution designed to boost efficiency and streamline business operations.",
+      "problem": "Businesses struggle with managing analytics processes efficiently.",
+      "solution": "Our AI-powered analytics platform simplifies workflows and enhances productivity.",
+      "audience": "SMBs",
+      "context": "Built for the modern digital ecosystem with integrations and scalability in mind.",
+      "mainFeatures": [
+        "Smart automation",
+        "Analytics dashboard",
+        "Multi-user support",
+        "Secure data layer"
+      ],
+      "logo": "/images/software/analytics-uk.png",
+      "rating": 4.7,
+      "price": "$499/month"
+    },
+    {
+      "id": "soft-003",
+      "name": "Analytics UAE Business",
+      "category": "Analytics",
+      "headquarter": "UAE",
+      "email": "info14@analytics.io",
+      "valueProposition": "Analytics solution designed to boost efficiency and streamline business operations.",
+      "problem": "Businesses struggle with managing analytics processes efficiently.",
+      "solution": "Our AI-powered analytics platform simplifies workflows and enhances productivity.",
+      "audience": "SMBs",
+      "context": "Built for the modern digital ecosystem with integrations and scalability in mind.",
+      "mainFeatures": [
+        "Smart automation",
+        "Analytics dashboard",
+        "Multi-user support",
+        "Secure data layer"
+      ],
+      "logo": "/images/software/analytics-uae.png",
+      "rating": 4.3,
+      "price": "$399/month"
+    },
+    {
+      "id": "soft-004",
+      "name": "HRTech Germany",
+      "category": "HRTech",
+      "headquarter": "Germany",
+      "email": "info5@hrtech.io",
+      "valueProposition": "HRTech solution designed to boost efficiency and streamline business operations.",
+      "problem": "Businesses struggle with managing hrtech processes efficiently.",
+      "solution": "Our AI-powered hrtech platform simplifies workflows and enhances productivity.",
+      "audience": "Tech Teams",
+      "context": "Built for the modern digital ecosystem with integrations and scalability in mind.",
+      "mainFeatures": [
+        "Smart automation",
+        "Analytics dashboard",
+        "Multi-user support",
+        "Secure data layer"
+      ],
+      "logo": "/images/software/hrtech-germany.png",
+      "rating": 4.6,
+      "price": "$599/month"
+    },
+    {
+      "id": "soft-005",
+      "name": "HRTech Canada",
+      "category": "HRTech",
+      "headquarter": "Canada",
+      "email": "info12@hrtech.io",
+      "valueProposition": "HRTech solution designed to boost efficiency and streamline business operations.",
+      "problem": "Businesses struggle with managing hrtech processes efficiently.",
+      "solution": "Our AI-powered hrtech platform simplifies workflows and enhances productivity.",
+      "audience": "Tech Teams",
+      "context": "Built for the modern digital ecosystem with integrations and scalability in mind.",
+      "mainFeatures": [
+        "Smart automation",
+        "Analytics dashboard",
+        "Multi-user support",
+        "Secure data layer"
+      ],
+      "logo": "/images/software/hrtech-canada.png",
+      "rating": 4.8,
+      "price": "$699/month"
+    },
+    {
+      "id": "soft-006",
+      "name": "Stripe",
+      "category": "FinTech",
+      "headquarter": "USA",
+      "email": "contact@stripe.com",
+      "valueProposition": "Payment infrastructure for the internet, enabling businesses to accept and manage online payments globally.",
+      "problem": "Businesses face complex integrations and compliance issues when processing online payments.",
+      "solution": "A unified API platform simplifying payments, billing, and financial operations.",
+      "audience": "E-commerce platforms, SaaS companies, marketplaces",
+      "context": "Global, focusing on online commerce and developer-centric ecosystems.",
+      "mainFeatures": [
+        "Payment gateway",
+        "Invoicing",
+        "Subscription billing",
+        "APIs",
+        "Fraud prevention"
+      ],
+      "logo": "/images/software/stripe.png",
+      "rating": 4.9,
+      "price": "2.9% + 30¢ per transaction"
+    },
+    {
+      "id": "soft-007",
+      "name": "BlockchainX Canada",
+      "category": "Blockchain / Web3",
+      "headquarter": "Canada",
+      "email": "info8@blockchainweb3.io",
+      "valueProposition": "Blockchain / Web3 solution designed to boost efficiency and streamline business operations.",
+      "problem": "Businesses struggle with managing blockchain / web3 processes efficiently.",
+      "solution": "Our AI-powered blockchain / web3 platform simplifies workflows and enhances productivity.",
+      "audience": "Tech Teams",
+      "context": "Built for the modern digital ecosystem with integrations and scalability in mind.",
+      "mainFeatures": [
+        "Smart automation",
+        "Analytics dashboard",
+        "Multi-user support",
+        "Secure data layer"
+      ],
+      "logo": "/images/software/blockchain-canada.png",
+      "rating": 4.4,
+      "price": "$899/month"
+    },
+    {
+      "id": "soft-008",
+      "name": "Web3 Germany",
+      "category": "Blockchain / Web3",
+      "headquarter": "Germany",
+      "email": "info11@blockchainweb3.io",
+      "valueProposition": "Blockchain / Web3 solution designed to boost efficiency and streamline business operations.",
+      "problem": "Businesses struggle with managing blockchain / web3 processes efficiently.",
+      "solution": "Our AI-powered blockchain / web3 platform simplifies workflows and enhances productivity.",
+      "audience": "Investors",
+      "context": "Built for the modern digital ecosystem with integrations and scalability in mind.",
+      "mainFeatures": [
+        "Smart automation",
+        "Analytics dashboard",
+        "Multi-user support",
+        "Secure data layer"
+      ],
+      "logo": "/images/software/web3-germany.png",
+      "rating": 4.5,
+      "price": "$1299/month"
+    }
+    
+  ],
+  "startups": [
+    {
+      "id": "startup-001",
+      "name": "FinTechX1",
+      "founderName": "Founder 1",
+      "category": "FinTech",
+      "headquarter": "Saudi Arabia",
+      "stage": "Seed",
+      "problem": "Current fintech solutions lack scalability and user engagement.",
+      "solution": "An AI-driven fintech platform providing seamless experience and automation.",
+      "valueProposition": "Empowering businesses and users through innovative fintech solutions.",
+      "audience": "Tech Teams",
+      "context": "Part of the global push for digital transformation in fintech sector.",
+      "minimumInvestment": "$250K",
+      "logo": "/images/startups/fintechx1.png",
+      "fundingRaised": "$500K",
+      "teamSize": 8,
+      "yearFounded": 2023
+    },
+    {
+      "id": "startup-002",
+      "name": "FinTechX9",
+      "founderName": "Founder 9",
+      "category": "FinTech",
+      "headquarter": "Germany",
+      "stage": "Seed",
+      "problem": "Current fintech solutions lack scalability and user engagement.",
+      "solution": "An AI-driven fintech platform providing seamless experience and automation.",
+      "valueProposition": "Empowering businesses and users through innovative fintech solutions.",
+      "audience": "Enterprises",
+      "context": "Part of the global push for digital transformation in fintech sector.",
+      "minimumInvestment": "$2M",
+      "logo": "/images/startups/fintechx9.png",
+      "fundingRaised": "$1.5M",
+      "teamSize": 15,
+      "yearFounded": 2022
+    },
+    {
+      "id": "startup-003",
+      "name": "BlockchainWeb3X10",
+      "founderName": "Founder 10",
+      "category": "Blockchain / Web3",
+      "headquarter": "USA",
+      "stage": "Seed",
+      "problem": "Current blockchain / web3 solutions lack scalability and user engagement.",
+      "solution": "An AI-driven blockchain / web3 platform providing seamless experience and automation.",
+      "valueProposition": "Empowering businesses and users through innovative blockchain / web3 solutions.",
+      "audience": "Tech Teams",
+      "context": "Part of the global push for digital transformation in blockchain / web3 sector.",
+      "minimumInvestment": "$500K",
+      "logo": "/images/startups/blockchainx10.png",
+      "fundingRaised": "$750K",
+      "teamSize": 10,
+      "yearFounded": 2023
+    },
+    {
+      "id": "startup-004",
+      "name": "BlockchainWeb3X12",
+      "founderName": "Founder 12",
+      "category": "Blockchain / Web3",
+      "headquarter": "Germany",
+      "stage": "Series B",
+      "problem": "Current blockchain / web3 solutions lack scalability and user engagement.",
+      "solution": "An AI-driven blockchain / web3 platform providing seamless experience and automation.",
+      "valueProposition": "Empowering businesses and users through innovative blockchain / web3 solutions.",
+      "audience": "Enterprises",
+      "context": "Part of the global push for digital transformation in blockchain / web3 sector.",
+      "minimumInvestment": "$250K",
+      "logo": "/images/startups/blockchainx12.png",
+      "fundingRaised": "$8M",
+      "teamSize": 45,
+      "yearFounded": 2020
+    },
+    {
+      "id": "startup-005",
+      "name": "BlockchainWeb3X14",
+      "founderName": "Founder 14",
+      "category": "Blockchain / Web3",
+      "headquarter": "Germany",
+      "stage": "Pre-Series A",
+      "problem": "Current blockchain / web3 solutions lack scalability and user engagement.",
+      "solution": "An AI-driven blockchain / web3 platform providing seamless experience and automation.",
+      "valueProposition": "Empowering businesses and users through innovative blockchain / web3 solutions.",
+      "audience": "SMBs",
+      "context": "Part of the global push for digital transformation in blockchain / web3 sector.",
+      "minimumInvestment": "$1M",
+      "logo": "/images/startups/blockchainx14.png",
+      "fundingRaised": "$2M",
+      "teamSize": 25,
+      "yearFounded": 2021
     }
   ]
 }

@@ -12,7 +12,8 @@
   "newsletter": "Newsletter",
   "servicesDescription": "Our services include web development and more.",
   "softwareDescription": "Explore our software solutions.",
-  "IntroductionText": "StellarSep -- Your Permanent AI-Powered Digital Booth\nExperience the future of showcasing, selling, and discovering technology in Stellar Sales Engineering Platform.\nA smart, always-on ecosystem where startups, buyers, investors, and software vendors connect -- through intelligent demos, real-time insights, and AI-driven matchmaking.\nIt's more than a booth -- it's your digital sales engine, powered by artificial intelligence.",
+  "IntroductionText": "StellarSep - Your Permanent AI-Powered Digital Booth\nExperience the future of showcasing, selling, and discovering technology in Stellar Sales Engineering Platform.\nA smart, always-on ecosystem where startups, buyers, investors, and software vendors connect. through intelligent demos, real-time insights, and AI-driven matchmaking.\nIt's more than a booth , it's your digital sales engine, powered by artificial intelligence.",
+  "AIPower":"AI Power",
   "vendorText": "Build your digital booth Here!",
   "buyerText": "Find the most proper product or service at a glance!",
   "startupText": "Show up your product or service in Startups Hall!",
@@ -35,25 +36,27 @@
     "searchPlaceholder": "Search by name or keyword...",
   "searchButton": "Search",
   "softwareFilter": "Software",
+  "softwareFind": "FIND SOFTWARE",
   "startupFilter": "Startup",
+  "startupFind": "FIND STARTUP",
   "noResults": "No results found.",
   "servicesItem": {
     "title": "Our Services",
     "dataAnalysis": {
-      "title": "Data Analysis & Report",
-      "description": "Comprehensive data analysis and detailed reporting solutions"
+      "title": "CRM Integration",
+      "description": "Seamless workflow, smarter follow-up.\nStellarSep, connects directly to your favourite CRM or ERP system, ensuring every lead, interaction, and demo syncs automatically — with zero manual work.\nYour sales data, unified and actionable."
     },
     "leadGeneration": {
-      "title": "Lead Generation",
-      "description": "Generate quality leads and expand your business reach"
+      "title": "Smart Sale",
+      "description": "Turn every interaction into a sales opportunity.\nWith real-time analytics, lead scoring, and personalized recommendations, Smart Sale helps vendors understand interest signals and close deals faster.\nIt's sales intelligence — built into your digital booth."
     },
     "technicalDemo": {
-      "title": "Technical Demo",
-      "description": "Interactive technical demonstrations and presentations"
+      "title": "Demo Engine",
+      "description": "Experience technology before you buy.\nOur AI-powered Demo Engine creates interactive, personalized product demonstrations that highlight key features, use cases, and value — automatically.\nVendors save time. Buyers make confident decisions."
     },
     "aiMatching": {
-      "title": "AI Matching Engine",
-      "description": "Smart AI-powered matching for optimal business connections"
+      "title": "Intelligent Matching",
+      "description": "AI-driven connections that matter.\n Our intelligent engine analyses product data, user behaviour, and business goals to connect startups-investors and vendors-buyers with the most relevant opportunities — instantly and precisely.\nForget random leads. Get smart matches that drive real growth."
     }
   },
    "statistics": {
@@ -69,7 +72,7 @@
     "quickLinks": "Quick Links",
     "ourServices": "Our Services",
     "contactInfo": "Contact Info",
-    "address": "123 Innovation Street, Tech Valley, Dubai, UAE",
+    "address": "No 114 , M Floor , Alkhalij center , BurDubai , Dubai",
     "newsletterTitle": "Stay Updated",
     "newsletterDescription": "Subscribe to our newsletter and get the latest updates on tech innovations and investment opportunities.",
     "emailPlaceholder": "Enter your email address",
@@ -117,7 +120,7 @@
     "subtitle": "Get in touch with us for any inquiries or support",
     "getInTouch": "Get In Touch",
     "location": "Location",
-    "locationValue": "Dubai, United Arab Emirates",
+    "locationValue": "No 114 , M Floor , Alkhalij center , BurDubai , Dubai",
     "email": "Email",
     "emailValue": "info@stellarsep.com",
     "phone": "Phone",

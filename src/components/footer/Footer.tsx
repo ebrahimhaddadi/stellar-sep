@@ -232,7 +232,7 @@ const Footer: React.FC = () => {
                 <span className={styles.contactIcon}>
                   <FaPhone />
                 </span>
-                <span dir="ltr">+971 4 123 4567</span>
+                <span dir="ltr">+971502648618</span>
               </div>
               <div className={styles.contactItem}>
                 <span className={styles.contactIcon}>
