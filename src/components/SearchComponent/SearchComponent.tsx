@@ -73,13 +73,13 @@ const SearchComponent: React.FC<SearchComponentProps> = ({ onSearch }) => {
             required
           />
           
-          <input
+          {/* <input
             type="text"
             placeholder={t('searchPlaceholder') || 'Search by name or keyword...'}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             className={styles.searchInput}
-          />
+          /> */}
           
           {error && <span className={styles.errorText}>{error}</span>}
         </div>
