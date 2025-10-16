@@ -29,10 +29,10 @@ const SearchComponent: React.FC<SearchComponentProps> = ({ onSearch }) => {
       return;
     }
     
-    if (!validateEmail(email)) {
-      setError('Please enter a valid email address');
-      return;
-    }
+    // if (!validateEmail(email)) {
+    //   setError('Please enter a valid email address');
+    //   return;
+    // }
 
     try {
       // Save lead to JSON server
