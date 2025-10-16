@@ -51,9 +51,9 @@ const BrowsePage: React.FC = () => {
     price: "",
   });
 
-  const [categories, setCategories] = useState<string[]>([]);
-  const [headquarters, setHeadquarters] = useState<string[]>([]);
-  const [audiences, setAudiences] = useState<string[]>([]);
+  const [categories, setCategories] = useState<any[]>([]);
+  const [headquarters, setHeadquarters] = useState<any[]>([]);
+  const [audiences, setAudiences] = useState<any[]>([]);
 
   const [allItems, setAllItems] = useState<Item[]>([]);
   const [filteredItems, setFilteredItems] = useState<Item[]>([]);
